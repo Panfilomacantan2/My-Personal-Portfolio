@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Panfilo-Website</title>
+	</head>
+
+	<body>
+		<!-- header...... -->
+		<header id="header">
+			<div class="logo-icon">
+				<i class="fa fa-anchor" aria-hidden="true"></i>
+
+				<a href="./index.html" class="logo">Panfilo</a>
+			</div>
+
+			<ul class="navigation">
+				<li><a class="nav-link" href="#home">Home</a></li>
+				<li><a class="nav-link" href="#skills">Skills</a></li>
+				<li><a class="nav-link" href="#project">Project</a></li>
+				<li><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+
+			<!--hidden toggler-->
+			<div class="toggler">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</header>
+
+		<!--sectionssssss-->
+
+		<!-- home -->
+		<section id="home">
+			<div class="identity-container">
+				<h6 class="introduce">HI,</h6>
+
+				<h1 class="name">
+					<span class="color-text">I'm</span> Panfilo P. Macantan
+				</h1>
+				<h1 class="typing"></h1>
+			</div>
+		</section>
+
+		<!-- skills -->
+		<section id="skills">
+			<h1 class="description">SKILLS</h1>
+			<div class="skills-container">
+				<div class="box" title="html"></div>
+				<div class="box" title="css"></div>
+				<div class="box" title="javascript"></div>
+				<div class="box" title="bootstrap"></div>
+			</div>
+		</section>
+
+		<!-- project -->
+		<section id="project">
+			<h1 class="description">PROJECTS</h1>
+			<div class="project-container">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+		</section>
+		<!-- contact -->
+		<section id="contact">
+			<h1 class="description">CONTACTS</h1>
+			<!---contact form-->
+
+			<div class="form-container">
+				<form action="">
+					<label for="name">Name*</label>
+					<input type="text" id="name" placeholder="Name" />
+					<label for="email">Email*</label>
+					<input type="email" id="email" placeholder="Email" />
+					<label for="message">Message*</label>
+					<textarea
+						id="message"
+						cols="30"
+						rows="4"
+						placeholder="Type a message . . ."
+					></textarea>
+					<input type="button" value="Send" />
+				</form>
+			</div>
+
+			<div id="contact-container">
+				<ul class="social-account">
+					<li>
+						<a href="/"
+							><i class="fa fa-github" aria-hidden="true"></i
+						></a>
+					</li>
+					<li>
+						<a href="/"
+							><i class="fa fa-facebook" aria-hidden="true"></i
+						></a>
+					</li>
+					<li>
+						<a href="/"
+							><i class="fa fa-envelope" aria-hidden="true"></i
+						></a>
+					</li>
+				</ul>
+				<!----Contact me-->
+				<div class="msg-box">
+					<ul>
+						<li>
+							If you wanna get in touch, talk to me about a project or
+							just say hi send an email to panfilomacantan.pm@gmail.com
+							and let's talk
+						</li>
+						<li>
+							<i class="fa fa-envelope" aria-hidden="true"></i
+							>panfilomacantan.pm@gmail.com
+						</li>
+						<li>
+							<i class="fa fa-briefcase" aria-hidden="true"></i
+							>Freelancer
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<!--copy Right-->
+			<h4 class="copyright">
+				<i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2021
+			</h4>
+		</footer>
+
+		<script src="./app.js"></script>
+	</body>
+</html>
